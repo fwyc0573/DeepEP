@@ -1,8 +1,24 @@
-compile_commands.json
-.idea
-.DS_Store
-*.pyc
-build/
-.cache/
+# IDE and editor files
+.idea/
 .vscode/
+compile_commands.json
+
+# OS-specific
+.DS_Store
+
+# Python build artifacts and caches
+build/
+dist/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.cache/
+.pytest_cache/
+
+# C++ build artifacts
+*.o
+*.so
+*.a
 */cmake-build-*/
